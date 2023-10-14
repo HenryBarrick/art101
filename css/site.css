@@ -9,7 +9,7 @@ body {
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1 {
-  font-family: Georgia;
+  font-family: san-serif;
   color: rgb(13, 73, 13);
 }
 h2,h3 {
