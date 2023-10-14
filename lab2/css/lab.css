@@ -12,7 +12,7 @@ p {
 }
 
 #content{
-  border: solid 5px #d69a01;
+  border: dashed 5px #d69a01;
   border-style: dashed;
 }
 
