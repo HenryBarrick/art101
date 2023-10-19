@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .structure-photo {
+    max-width: 250px;
+  }
+
+  .code-photo {
+    max-width: 600px;
+  }
