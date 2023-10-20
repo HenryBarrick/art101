@@ -1,6 +1,15 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Rock-Paper-Scissors : Pseudocode for implementation
+// Author: Henry Tripp Barrick and Tomoya Kato
+// Date: October 2023
+
+//Give players options to choose option
+  //Options are Rock, Paper, and Scissors
+//Confirm user choice
+  //Wait until both users have confirmed choices
+  //make sure chosen options are hidden until step 4
+//Compare chosen options to determine outcome
+//Report which player won
+  //If neither player won, restart from step 1
 
 // Constants
 
