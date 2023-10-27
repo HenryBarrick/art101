@@ -1,4 +1,4 @@
-// index.js - This script contains variables for a car including make and age and lists them in our html file.
+// index.js - This script contains variables for my car including make and age and lists them in our html file.
 // Author: Henry Tripp Barrick and Tomoya Kato
 // Date: October 2023
 
