@@ -1,21 +1,24 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - This script contains arrays and objects necessary for lab 6.
+// Author: Henry Tripp Barrick and Tomoya Kato
+// Date: October 2023
 
-// Constants
+//Variables
+  var myTransport = ["Prius", " Bus", " Foot"];
 
-// Functions
+  var myMainRide = {
+    make: "Toyota",
+      model: "Prius",
+      color: "silver",
+      year: 2007,
+      ownIt: true,
+      age: function(){
+        return 2023 - this.year;
+        }
+    } 
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//Output
+document.writeln("Our methods of transportation: " + myTransport + "</br>")
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//Using method to write out object as string
+document.writeln("My Main Ride: <pre>", 
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
