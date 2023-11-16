@@ -21,7 +21,7 @@ function textGen(){
     //This is function returns unique text and a photo if the string length would have been the maximum
     if (randLen == 100) {
         $("#output").append("<img class='moth-photo' src='./img/lunaMoth.jpg'></a></br>")
-        return "Hey, you just rolled the longest possible text length. That's pretty cool. Here's this moth as a reward. You earned it.";
+        return "Hey, you just rolled the longest possible text length. That's pretty cool. Here's this LUNA moth as a reward. You earned it.";
     }
 
     const randStart = Math.floor(Math.random() * (text.length - randLen + 1))

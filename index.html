@@ -9,13 +9,11 @@
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script type="text/javascript" src="./js/site.js" DEFER></script>
 
-	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
@@ -24,7 +22,6 @@
 			<h1>Henry Tripp Barrick</h1>
 			<div class="minor-section">
 					<!-- Note that all filenames use lowercase and no spaces -->
-					<a href="https://en.wikipedia.org/wiki/Moth">
 					<img class="moth-photo" src="./img/cool-moth.jpg"></a><br>
 					<h2>Moth Dossier</h2>
 					<ol>
@@ -44,7 +41,7 @@
 			</div>
 		</section>
 		<h2>Links to Labs</h2>
-		<nav id = "links">
+		<nav id="links">
 		<ul>
 			<li><a href="lab2/index.html">Lab 2 - HTML and CSS starter</a></li>
 			<li><a href="lab3/index.html">Lab 3 - File Structure and File Transfer</a></li>

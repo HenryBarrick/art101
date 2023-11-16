@@ -2,20 +2,14 @@
 // Author: Your Name
 // Date:
 
-// Constants
+//update this with added moth secrets
+const password = "luna";
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+$(".moth-photo").click(function(){
+  var input = prompt("What is the password?)");
+  input = input.toLowerCase();
+  if (input == password)
+  {
+    $("#links").append("<a href='mothZone/index.html'>Path to the Moth Zone</a>")
+  }
+})
