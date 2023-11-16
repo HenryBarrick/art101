@@ -1,0 +1,12 @@
+/*CSS styling sheet*/
+
+body {
+    background-color: whitesmoke;
+}
+
+#content {
+    text-align: center;
+    font-size: xx-large;
+    color: gray;
+    background-color: whitesmoke;
+}
