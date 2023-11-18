@@ -1,4 +1,4 @@
-// index.js - explanation
+// index.js - This code is to return a sorted string from an input field in our html file
 // Author: Henry Tripp Barrick and Tomoya Kato
 // Date: November 2023
 
