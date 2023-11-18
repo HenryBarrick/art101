@@ -3,7 +3,7 @@
 // Date:
 
 //update this with added moth secrets
-const password = "luna";
+const password = "lunacomet";
 
 $(".moth-photo").click(function(){
   var input = prompt("What is the password?)");
