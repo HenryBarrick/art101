@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#output {
+  color:chocolate;
+  padding: 3px;
+  font-size:large;
+  background-color:aquamarine;
+  font-family:'Trebuchet MS';
+}
