@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - name</title>
+	<title>Lab 15 - AJAX</title>
 	<link rel="icon" href="../img/nyeco.gif" type="image/gif">
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,24 +23,30 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - name</h1>
+			<h1>Lab 15 - AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>write
+					<p>The challenge of this lab was to use an AJAX call to get an output from our API,
+						of which we used the Jeopardy one. 
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>write </p>
+					<p>We had a few probems connecting the API to our JavaScript file. The first was just unfamiliarity using AJAX
+						since it is something neither of us had done before. However using the "recipe" from Canvas we got the 
+						hang of it. Secondly we had some decent issues trying to pull data from the API. This error turned out to be due
+						to the fact that Jeopardy API send its objects in arrays, and since we were only using one pull this meant
+						we recieved an object nestled in a 1 length array. Once we figured this out, we changed our code and were
+						able to call our data from the API and complete the lab.</p>
+
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div>
-						
-						
-					</div>
+					<div id="output"></div>
+					<button id="activate">Click me :smile:</button>
+					<p>Check the console for your answer</p>
 			</div>
 
 		</section>
