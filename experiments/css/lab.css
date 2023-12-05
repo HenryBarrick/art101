@@ -1,36 +1,57 @@
 /*CSS styling sheet*/
 
-.overlay {
-  background-color: rgb(208,208,208);
+#overlay {
+  background-color: rgb(255, 255, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 100%;
+  color: black;
   position: absolute;
   z-index: 9;
+  top: 0;
+  left: 0;
   height: 100%;
+  display: show;
 }
 
+#overlay p {
+  font-size: 15px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+  opacity: 50%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 #content {
     text-align: center;
     font-size: xx-large;
     color: rgb(84, 84, 84);
-    background-color: whitesmoke;
+    background-color: white;
 }
 
  /* The side navigation menu */
  .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 150px; /* 0 width - change this with JavaScript */
+    width: 170px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(197, 224, 197);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   /* The navigation menu links */
@@ -48,33 +69,70 @@ body {
     color: #f1f1f1;
   }
 
+  
+  #anm1 {
+    background-color: #d42a28;
+  }
+
+  #anm2 {
+    background-color: #5a9bf7;
+  }
+
+  #anm3 {
+    background-color: #ff914f;
+  }
+
+  #anm4 {
+    background-color: #f8ff52;
+  }
+
+  #anm5 {
+    background-color: #45ea88;
+  }
+
+  #anm6 {
+    background-color: #a535e0;
+  }
+
+  #infoContainer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    opacity: 100%;
+    position:fixed;
+    width: 450px;
+    top: 0;
+    float: right;
+    right: 0;
+    background-color: rgb(197, 224, 197);
+    overflow: hidden;
+    z-index: 1;
+  }
 
   #infoText {
     opacity: 0%;
     float: right;
     height: 100%; /* 100% Full-height */
     width: 450px; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+    position: absolute; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color: rgb(208, 208, 208);
+    overflow: hidden;
+    background-color: rgb(197, 224, 197);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 0px; /* Place content 60px from the top */
   }
   
   /* The navigation menu links */
   #anmDesc p {
-    padding: 0px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #474747;
     display: block;
     transition: 0.3s;
   }
 
   #anmDesc h3 {
-    padding: 0px 8px 8px 8px;
     text-decoration: none;
     font-size: 50px;
     color: #474747;
@@ -99,4 +157,19 @@ body {
   .animal-image {
     margin: 0px;
     max-width: 250px;
+  }
+
+  #heading {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .start {
+    background-color: rgb(197, 224, 197);
+    font-size: 50px;
+    border-radius: 8px;
+  }
+
+  .start:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
