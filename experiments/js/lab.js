@@ -1,4 +1,4 @@
-//Authors - Henry Tripp Barrick 
+//Authors - Henry Tripp Barrick, Peter Ampudia, Ashley Hom, Heidi Dullack
 // Used to style and animate Extinction Timeline final project
 // Date: 11-15
 
@@ -52,10 +52,10 @@ $("#anm2").click(function(){
     $("#anmDesc").html("<h3>Gray Wolf</h3> <p>Scientific Name: Canis lupus</p> <img class='animal-image' src='./img/grayWolf.webp'></br> <p>As a species native to California, the Gray Wolf had disappeared from the state in the 1920s. In 2014, the species was listed as endangered, with possible causes being human activity such as hunting.<br><br>Just recently in 2020, the US FWS took away the protections of the Gray Wolf under its title as an endangered species, despite its population not returning anywhere close to what it once was. Luckily, in 2022, this choice was overturned and the protection Gray Wolves once had by the FWS was restored. </p>");
 })
 $("#anm3").click(function(){
-    $("#anmDesc").html("<h3>San Joaquin Kit Fox</h3> <p>Scientific Name: Vulpes macrotis</p> <img class='animal-image' src='./img/kitFox.webp'></br> <p>The San Joaquin Kit Fox has been threatened with habitat loss through the use of pesticides, and has been listed as endangered since 1967. The species resides in the San Joaquin Valley of California, and it's population has been exponentially decreasing since 1930. <br><br> In 1998, The San Joaquin Kit Fox was included included in a recovery plan through the U.S. FWS, and its population has remained steady in recent years. </p>");
+    $("#anmDesc").html("<h3>San Joaquin Kit Fox</h3> <p>Scientific Name: Vulpes macrotis</p> <img class='animal-image' src='./img/kitFox.webp'></br> <p>The San Joaquin Kit Fox has been threatened with habitat loss through the use of pesticides, and has been listed as endangered since 1967. The species resides in the San Joaquin Valley of California, and its population has been exponentially decreasing since 1930. <br><br> In 1998, The San Joaquin Kit Fox was included in a recovery plan through the U.S. FWS, and its population has remained steady in recent years. </p>");
 })
 $("#anm4").click(function(){
-    $("#anmDesc").html("<h3>Franklin's Bumblebee</h3> <p>Scientific Name: Bombus franklini</p> <img class='animal-image' src='./img/Bee.webp'></br> <p>The Franklins' Bumblebee has not been seen since 2006, and is a critically endangered species. It lives in an area in a 13,000 square mile area in Northern California and Southern Oregon. Out of all North American bumble bees, the Franklin's Bumble Bee has the smallest range distribution. Because this species of bumble bee never recieved legal protection, pesticides and habitat destruction have continued to harm its ability to survive, and it is not clear whether they are entirely extinct or not. </p>");
+    $("#anmDesc").html("<h3>Franklin's Bumblebee</h3> <p>Scientific Name: Bombus franklini</p> <img class='animal-image' src='./img/Bee.webp'></br> <p>The Franklins' Bumblebee has not been seen since 2006, and is a critically endangered species. It lives in an area in a 13,000 square mile area in Northern California and Southern Oregon. Out of all North American bumble bees, the Franklin's Bumble Bee has the smallest range distribution. Because this species of bumble bee never received legal protection, pesticides and habitat destruction have continued to harm its ability to survive, and it is not clear whether they are entirely extinct or not. </p>");
 })
 
 $("#anm5").click(function(){
@@ -63,7 +63,7 @@ $("#anm5").click(function(){
 })
 
 $("#anm6").click(function(){
-    $("#anmDesc").html("<h3>Zebra Mussel</h3> <p>Scientific Name: Dreissena polymorpha</p> <img class='animal-image' src='./img/zebraMussel.jpg'></br> <p>Native to the Black Sea and brought to the Great Lakes through a single cargo ship, the zebra mussel has rapidly grown in population and is now found in over 30 states, including the Great Lakes. Zebra mussels have a few negative effects on the North American environment, such as filtering out the algae that native species use for food, and clogging up the water intake pipes of power plants.</p> <p>The spread of Zebra Mussels can be limited through a few ways. Firstly, the use of Zebra Mussels as pets, bait, or food should be avoided. Proper cleaning of a boat is important, such was washing it off and avoiding the transfer of water from one body of water to another. </p>");
+    $("#anmDesc").html("<h3>Zebra Mussel</h3> <p>Scientific Name: Dreissena polymorpha</p> <img class='animal-image' src='./img/zebraMussel.jpg'></br> <p>Native to the Black Sea and brought to the Great Lakes through a single cargo ship, the zebra mussel has rapidly grown in population and is now found in over 30 states, including the Great Lakes. Zebra mussels have a few negative effects on the North American environment, such as filtering out the algae that native species use for food, and clogging up the water intake pipes of power plants.</p> <p>The spread of Zebra Mussels can be limited through a few ways. Firstly, the use of Zebra Mussels as pets, bait, or food should be avoided. Proper cleaning of a boat is important, such as washing it off and avoiding the transfer of water from one body of water to another. </p>");
 })
 
 //Intro page code
