@@ -42,27 +42,15 @@ $(".sidenav").click(function(){
         translateX: -450,
         duration: 100,
         easing: 'linear'
-    });
+    });  
 })
 
-$("#anm1").click(function(){ 
-    $("#anmDesc").html(descHolder[0]);
-})  
-$("#anm2").click(function(){
-    $("#anmDesc").html(descHolder[1]);
+$(".sidenav a").click(function(){
+    var navID = $(this).attr("id");
+    $("#anmDesc").html(descHolder[navID]);
+    console.log(navID);
 })
-$("#anm3").click(function(){
-    $("#anmDesc").html(descHolder[2]);
-})
-$("#anm4").click(function(){
-    $("#anmDesc").html(descHolder[3]);
-})
-$("#anm5").click(function(){
-    $("#anmDesc").html(descHolder[4]);
-})
-$("#anm6").click(function(){
-    $("#anmDesc").html(descHolder[5]);
-})
+
 
 //Intro page code
 $(".start").click(function () {
