@@ -16,7 +16,7 @@ $.ajax({
         comicObj = data;
         $("#output").append("<h3>" + comicObj.title+ "</h3>");
         //This append looks terrible since adding spaces in this manner ignores the quotation marks that makes the comicObj.alt a string
-        //To fix this we used single quotations which add double quotations to the end of the comicObj.alt varibale
+        //To fix this we used single quotations which add double quotations to the end of the comicObj.alt variable
         //I hate this 
         $("#output").append('<img src=' + comicObj.img + ' alt= ' + '"' + comicObj.alt + '"' + 'title=' + '"' + comicObj.title + '"' + '>');
         //The bottom here adds in the caption below the image. This is for me own personal taste.
@@ -26,8 +26,5 @@ $.ajax({
     "error": function(jqXHR, textStatus, errorThrown) {
         console.log("Error: ", textStatus, errorThrown);
     }
-    })
-    //Get data from API in variable
-    //Make a title in output
-    //display image in output
+    })  
     

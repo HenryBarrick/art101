@@ -45,10 +45,12 @@ $(".sidenav").click(function(){
     });  
 })
 
-$(".sidenav a").click(function(){
+$(".sidenav a").click(function () {
     var navID = $(this).attr("id");
-    $("#anmDesc").html(descHolder[navID]);
-    console.log(navID);
+    var arrLink = $(this).attr("animal");
+    $("#anmDesc").html(descHolder[arrLink]);
+    console.log(navID)
+    console.log(arrLink)
 })
 
 
